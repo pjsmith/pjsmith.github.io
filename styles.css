@@ -1,6 +1,7 @@
 :root {
     --primary-color: #2c3e50;
     --accent-color: #3498db;
+    --link-color: #2471a3;
     --text-light: #7f8c8d;
     --border-color: #ecf0f1;
 }
@@ -37,6 +38,12 @@ h2 {
     margin: 2rem 0 1rem;
     border-left: 4px solid var(--accent-color);
     padding-left: 1rem;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-decoration-color: var(--link-color);
 }
 
 h3 {
